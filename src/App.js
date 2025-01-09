@@ -1,6 +1,5 @@
 import './App.scss';
 import Navigation from './navigation';
-import Logo from './logo';
 import Footer from './footer';
 
 function App() {
@@ -8,11 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="navigation">
-          <div className="menu">
-             <Logo />
              <Navigation />
        </div>
-        </div>
+
       </header>
    
 
