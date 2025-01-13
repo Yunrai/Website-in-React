@@ -1,5 +1,5 @@
 .App {
-  background-color: rgb(255, 251, 241);
+  background-color: rgb(230, 230, 230);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -56,17 +56,33 @@
   ul li a:hover:after {
     width:100%; 
 }
+}
 
 
+//content
+.content{
+
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .profile{
+      width: 30em;
+    }
+    h1{
+      color: rgb(4, 77, 52); 
+      font-size: 40px;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
 }
 
 
 //footer
 
 .footer {
+  position: absolute;
   width: 100%;
-  position:fixed;
-  bottom: 0;
+  height: fit-content;
   background-color: rgb(59, 59, 59);
   border-top: solid  rgb(10, 119, 37) 2px;
   p{

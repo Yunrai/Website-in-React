@@ -1,5 +1,5 @@
 .App {
-  background-color: rgb(250, 242, 220);
+  background-color: rgb(230, 230, 230);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -56,10 +56,24 @@
   width: 100%;
 }
 
+.content .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.content .container .profile {
+  width: 30em;
+}
+.content .container h1 {
+  color: rgb(4, 77, 52);
+  font-size: 40px;
+  font-family: "Raleway", sans-serif;
+}
+
 .footer {
+  position: absolute;
   width: 100%;
-  position: fixed;
-  bottom: 0;
+  height: -moz-fit-content;
+  height: fit-content;
   background-color: rgb(59, 59, 59);
   border-top: solid rgb(10, 119, 37) 2px;
 }
