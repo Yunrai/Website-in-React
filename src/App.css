@@ -34,6 +34,7 @@
   display: inline-block;
   margin: 0 15px;
   text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 .menu ul li a {
   text-decoration: none;
@@ -59,13 +60,28 @@
 .content .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap: 20vh;
+  border-bottom: 1px solid green;
 }
 .content .container .profile {
   width: 30em;
 }
-.content .container h1 {
+.content .container .container-right {
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 2%;
+  text-align: center;
+  padding: 3%;
+  height: -moz-max-content;
+  height: max-content;
+  left: 50%;
+  top: 40%;
+  right: 10%;
+  position: absolute;
+}
+.content .container .container-right p {
   color: rgb(4, 77, 52);
-  font-size: 40px;
+  font-size: 1.5em;
   font-family: "Raleway", sans-serif;
 }
 
