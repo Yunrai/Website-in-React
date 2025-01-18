@@ -1,7 +1,7 @@
 import './App.scss';
-import Navigation from './navigation';
-import Footer from './footer';
-import Content from './content';
+import Navigation from './components/navigation';
+import Footer from './components/footer';
+import Content from './components/content';
 
 function App() {
   return (
