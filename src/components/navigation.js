@@ -1,10 +1,12 @@
+import logo from '../assets/img/logo.png'
+
 function Navigation(){
     return( 
     <>
         <div className="menu">
         <img 
             className="logo" 
-            src={require('./img/logo.png')}
+            src={logo}
             onclick="location.href='index.html'"
             alt="logo"
         />

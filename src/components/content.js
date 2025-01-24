@@ -5,7 +5,7 @@ function Content () {
                 <div className='container-left'>
                  <img 
                     className="profile" 
-                    src={require('./img/pflarge.png')}
+                    src={require('../assets/img/pflarge.png')}
                     alt="profile"
                  />
                  </div>

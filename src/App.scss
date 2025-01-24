@@ -68,12 +68,16 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 20vh;
     border-bottom: 1px solid green;
- 
-    .profile{
-      width: 30em;
-      
-    }
    
+    
+   .container-left{
+    
+    
+
+    .profile{
+      width: 30em; 
+    }
+   }
     .container-right{
       background-color: white;
       border: 1px solid green;

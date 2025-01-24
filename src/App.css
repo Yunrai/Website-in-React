@@ -63,7 +63,7 @@
   grid-gap: 20vh;
   border-bottom: 1px solid green;
 }
-.content .container .profile {
+.content .container .container-left .profile {
   width: 30em;
 }
 .content .container .container-right {
