@@ -6,7 +6,7 @@ import About from './pages/about';
 import Articles from './pages/articles';
 import Booking from './pages/booking';
 import Contact from './pages/contact';
-import Services from './components/servicii';
+import Services from './pages/services';
 
 
 function App() {
