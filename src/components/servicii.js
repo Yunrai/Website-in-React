@@ -1,10 +1,10 @@
-function Services ()
+function Servicii ()
 {
     return (
         <>
             <div className="services-gallery">
                 <img 
-                    src={require('./img/service11.png')}        
+                    src={require('../assets/img/service11.png')}        
                     alt="Service 1"
                     />
                 <span clasName="title">Consiliere Psihologică</span>
@@ -12,7 +12,7 @@ function Services ()
             </div>
                 <div className="servicesGallery">
                     <img 
-                        src={require('./img/service22.png')}   
+                        src={require('../assets/img/service22.png')}   
                         alt="Service 2"
                     />
                 <span className="title">Psihoterapie Individuală sau de Cuplu</span>
@@ -22,4 +22,4 @@ function Services ()
     )
 }
 
-export default Services;
+export default Servicii;

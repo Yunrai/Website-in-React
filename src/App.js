@@ -1,29 +1,29 @@
 import './App.scss';
-import Navigation from './components/navigation';
-import Footer from './components/footer';
-import Content from './components/content';
+import './css/style.scss'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import About from './pages/about';
+import Articles from './pages/articles';
+import Booking from './pages/booking';
+import Contact from './pages/contact';
+import Services from './components/servicii';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="navigation">
-             <Navigation />
-       </div>
-
-      </header>
-   
-
-    <div className='content'>
-        <Content />
-
-    </div>
-
-    <div className="footer">
-         <Footer />
-    </div>
-      
-    </div>
+      <BrowserRouter>
+          <Routes>
+              <Route index element={<Home/>} />
+              <Route path="/home" element={<Home/>} />
+              <Route path="/about" element={<About/>}  />
+              <Route path="/services" element={<Services/>} />
+              <Route path="/booking" element={<Booking/>} />
+              <Route path="/articles" element={<Articles/>} />
+              <Route path="/contact" element={<Contact/>} /> 
+          </Routes>
+      </BrowserRouter>
+      </div>
   );
 }
 

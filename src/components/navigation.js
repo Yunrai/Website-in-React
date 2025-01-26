@@ -1,4 +1,5 @@
 import logo from '../assets/img/logo.png'
+import { Link} from 'react-router-dom';
 
 function Navigation(){
     return( 
@@ -9,15 +10,18 @@ function Navigation(){
             src={logo}
             onclick="location.href='index.html'"
             alt="logo"
-        />
+        /> 
+        <nav>
              <ul className="navLi">
-                <li><a class="active" href="index.html">Acasă</a></li>   
-                <li><a href="about.html">Despre Mine</a></li> 
-                <li><a href="services.html">Servicii</a></li> 
-                <li><a href="booking.html"><b>Programează o Ședință</b></a></li> 
-                <li><a href="articles.html">Articole</a></li>  
-                <li><a href="contact.html">Contact</a></li>
-             </ul> 
+                <li><Link to='/home'>Acasă</Link></li>   
+                <li><Link to='/about'>Despre Mine</Link></li>
+                <li><Link to='/services'>Servicii</Link></li>
+                <li><Link to='/booking'>Programează o sedință</Link></li>
+                <li><Link to='/articles'>Articole</Link></li>
+                <li><Link to='/contact'>Contact</Link></li>
+             </ul>
+
+         </nav>
         </div>
     </>  
     )
