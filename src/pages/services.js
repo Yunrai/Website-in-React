@@ -1,5 +1,6 @@
 import Navigation from "../components/navigation"
 import Footer from "../components/footer"
+import ServicesText from "../components/ServicesText";
 
 function Services(){
     return(
@@ -13,8 +14,9 @@ function Services(){
    
 
         <div className='content'>
-      
-
+            <div>
+                <ServicesText />
+            </div>
         </div>
 
         <div className="footer">

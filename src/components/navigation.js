@@ -8,7 +8,7 @@ function Navigation(){
         <img 
             className="logo" 
             src={logo}
-            onclick="location.href='index.html'"
+            onclick="location.href='index.html'" 
             alt="logo"
         /> 
         <nav>
@@ -20,7 +20,6 @@ function Navigation(){
                 <li><Link to='/articles'>Articole</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
              </ul>
-
          </nav>
         </div>
     </>  
